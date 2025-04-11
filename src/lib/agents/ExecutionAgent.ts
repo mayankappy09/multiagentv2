@@ -7,6 +7,7 @@ export class ExecutionAgent extends BaseAgent {
     }
 
     async process(input: string): Promise<string> {
+        console.log('input message : ', JSON.parse(input).description);
         await this.log("Received task for execution");
         
         const messages = [

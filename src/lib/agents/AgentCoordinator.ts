@@ -32,6 +32,7 @@ export class AgentCoordinator {
             if (onMessage) {
                 onMessage({ type: 'planning_start', message: 'Starting task planning...' });
             }
+            console.log('task', task);
             const plan = await this.taskPlanner.process(task);
             const parsedPlan = JSON.parse(plan);
             
