@@ -1,0 +1,88 @@
+# Project-wide exclusions
+
+# Dependencies
+**/node_modules/
+**/.pnp
+**/.pnp.js
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+
+# Build outputs
+**/.next/
+**/out/
+**/build/
+**/dist/
+
+# Environment files
+**/.env
+**/.env.*
+!.env.example
+
+# IDE and Editor files
+**/.vscode/
+**/.idea/
+**/*.swp
+**/*.swo
+**/.vs/
+
+# System files
+**/.DS_Store
+**/Thumbs.db
+**/.Spotlight-V100
+**/.Trashes
+**/ehthumbs.db
+
+# Logs and Debug
+**/logs/
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Cache
+**/.cache/
+**/.npm/
+**/.eslintcache
+
+# Testing
+**/coverage/
+**/cypress/videos/
+**/cypress/screenshots/
+
+# TypeScript
+**/*.tsbuildinfo
+**/next-env.d.ts
+
+# Temporary files
+**/*.tmp
+**/*.temp
+**/tmp/
+**/temp/
+
+# Documentation
+**/docs/_build/
+**/docs/_static/
+
+# Local development
+**/.vercel/
+**/.turbo/
+**/.serverless/
+
+# Package manager specific
+**/.yarn/
+**/.pnp.*
+**/.yarnrc.yml
+
+# OS generated files
+**/._*
+**/.Spotlight-V100
+**/.Trashes
+**/ehthumbs.db
+**/Thumbs.db
+
+# Project specific
+**/prod/.next/
+**/prod/out/
+**/prod/build/
+**/prod/node_modules/ 
